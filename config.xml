@@ -3,17 +3,17 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.immotell.immotell"
+        id        = "com.abranwaelte.abranwaelte"
         version   = "3.2.0">
 
-    <name>immotell</name>
+    <name>Adolphs | Brauweiler - Rechtsanwälte</name>
 
     <description>
         OpenImmo social App
     </description>
 
-    <author href="http://www.immotell.de" email="info@immotell.de">
-        immotell
+    <author href="http://www.abr-anwaelte.de" email="info@abr-anwaelte.de">
+        Adolphs | Brauweiler - Rechtsanwälte
     </author>
 
     <!--
