@@ -6,10 +6,10 @@
         id        = "com.abranwaelte.abranwaelte"
         version   = "3.2.0">
 
-    <name>Adolphs | Brauweiler - Rechtsanwälte</name>
+    <name>Adolphs | Brauweiler</name>
 
     <description>
-        App
+        Rechtsanwälte
     </description>
 
     <author href="http://www.abr-anwaelte.de" email="info@abr-anwaelte.de">
