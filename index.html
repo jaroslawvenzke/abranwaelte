@@ -4,22 +4,21 @@
     <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
     <meta http-equiv="Content-type" content="text/html; charset=utf-8">
     <title>Adolphs | Brauweiler - Rechtsanwälte</title>
-    <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+    <script type="text/javascript" charset="utf-8" src="phonegap.js"></script>
     <script type="text/javascript" charset="utf-8" src="childbrowser.js"></script>
     <script type="text/javascript" charset="utf-8">
  
     // Wait for PhoneGap to load
     //
-    /*function onLoad() {
+    function onLoad() {
         document.addEventListener("deviceready", onDeviceReady, false);
     }
  
     // PhoneGap is ready
     //
 	function onDeviceReady() {	
-	}	*/
 	
-	function closed() {
+		function closed() {
 			/*console.log("The JS got a close event");*/
 			if (navigator.app) {
 				if (confirm("App beenden?")) navigator.app.exitApp();
@@ -47,6 +46,8 @@
 	
 	showPage(true);
 	
+	}
+
     </script>
   </head>
   <body onload="onLoad()">
