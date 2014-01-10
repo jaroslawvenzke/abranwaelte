@@ -19,18 +19,16 @@
 	function onDeviceReady() {
 		
 		function closed() {
-        /*console.log("The JS got a close event");*/
-		if (navigator.app) {
-			navigator.app.exitApp();
-		}
-		else if (navigator.device) {
-			navigator.device.exitApp();
+			/*console.log("The JS got a close event");*/
+			if (navigator.app) {
+				if (confirm("App beenden?")) navigator.app.exitApp();
+				/*navigator.app.exitApp();*/
 			}
-		}
-	
-		function locationChanged(newurl) {
-        /*console.log("The JS got this url = " + newurl);*/
-		}
+			else if (navigator.device) {
+				if (confirm("App beenden?")) navigator.device.exitApp();
+				/*navigator.device.exitApp();*/
+				}
+			}
 		
 		function showPage(locbar) {
         window.plugins.childBrowser.onLocationChange = locationChanged;
