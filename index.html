@@ -29,6 +29,10 @@
 				/*navigator.device.exitApp();*/
 				}
 			}
+	
+		function locationChanged(newurl) {
+        /*console.log("The JS got this url = " + newurl);*/
+		}
 		
 		function showPage(locbar) {
         window.plugins.childBrowser.onLocationChange = locationChanged;
@@ -42,12 +46,12 @@
 	
 	showPage(true);
 		
-    }	
-    
+    }
+	
     </script>
   </head>
   <body onload="onLoad()">
-  <table width="100%" align="center" cellpadding="0" cellspacing="0">
+    <table width="100%" align="center" cellpadding="0" cellspacing="0">
 	<tr>
 		<td>&nbsp;</td>
 	</tr>
